@@ -1,0 +1,70 @@
+<form>
+  <div class="form-group">
+    <label for="nome">Título</label>
+    <input type="text" class="form-control" id="nome" placeholder="Título da Marmita" />
+  </div>
+
+  <div class="form-group">
+    <label for="descricao">Descrição</label>
+    <textarea type="password" class="form-control" id="descricao" rows="3"></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="ingredientes">Ingredientes</label>
+    <textarea type="password" class="form-control" id="ingredientes" rows="3"></textarea>
+  </div>
+
+  <hr />
+
+  <div class="form-group">
+    <label for="imagem">Imagem</label>
+    <input type="text" class="form-control" id="imagem" placeholder="URL da Imagem" />
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="form-group">
+        <label for="estoque">Estoque</label>
+        <input type="text" class="form-control" id="estoque" />
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="form-group">
+        <label for="preco">Preço</label>
+        <div class="input-group">
+          <div class="input-group-addon">R$</div>
+          <input type="text" class="form-control" id="preco" />
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="form-group">
+        <label for="tipodesconto">Tipo de Desconto</label>
+        <select class="form-control" id="tipodesconto">
+          <option value="pocento">Porcento</option>
+          <option value="real">Real</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="form-group">
+        <label for="desconto">Desconto</label>
+        <input type="text" class="form-control" id="desconto" />
+      </div>
+    </div>
+
+  </div>
+
+  <hr />
+
+  <button type="submit" class="btn btn-default">Enviar</button>
+
+  <br />
+  <br />
+  <a href="/">Voltar</a>
+</form>
